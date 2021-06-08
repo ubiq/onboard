@@ -322,8 +322,12 @@ export function networkName(id: number): string {
       return 'goerli'
     case 42:
       return 'kovan'
+    case 88:
+      return 'ubiq'
     case 100:
       return 'xdai'
+    case 137:
+      return 'polygon'
     default:
       const { networkId, networkName } = get(app)
       return (networkId === id && networkName) || 'unknown'
@@ -342,8 +346,12 @@ export function networkToId(network: string): number {
       return 5
     case 'kovan':
       return 42
+    case 'ubiq':
+      return 88
     case 'xdai':
       return 100
+    case 'polygon':
+      return 137
     default:
       return 0
   }

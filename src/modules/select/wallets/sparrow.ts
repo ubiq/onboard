@@ -39,7 +39,7 @@ function sparrow(
     link: 'https://ubiqsmart.com/sparrow',
     installMessage: extensionInstallMessage,
     desktop: true,
-    mobile: true,
+    mobile: false,
     preferred
   }
 }

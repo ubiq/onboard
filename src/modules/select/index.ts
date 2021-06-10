@@ -7,7 +7,7 @@ import { isWalletInit } from '../../validation'
 
 // wallets that qualify for default wallets need to have no
 // init parameters that are required for full functionality
-const desktopDefaultWalletNames = ['metamask', 'torus', 'opera', 'liquality']
+const desktopDefaultWalletNames = ['metamask', 'sparrow', 'torus', 'opera', 'liquality']
 
 const mobileDefaultWalletNames = [
   'metamask',
